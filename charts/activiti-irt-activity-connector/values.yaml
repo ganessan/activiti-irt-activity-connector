@@ -26,7 +26,7 @@ image:
   tag: dev
   pullPolicy: IfNotPresent
 service:
-  name: REPLACE_ME_APP_NAME
+  name: activiti-irt-activity-connector
   type: ClusterIP
   externalPort: 80
   internalPort: 8080
